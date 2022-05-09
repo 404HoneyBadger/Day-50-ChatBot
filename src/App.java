@@ -74,8 +74,9 @@ public class App {
         System.out.println("(b) [1,3,5,5, [1,8 ] ]");
         System.out.println("(c) [ [1,3], [5,5], [1,8] ]");
         System.out.println("(d) undefined");
+        scanner.nextLine();
         String answer = scanner.nextLine();
-        
+
         while (!answer.equalsIgnoreCase("c")) {
             System.out.println("Nope! Let's try again");
             System.out.println("What is stored in the triangle array?");
